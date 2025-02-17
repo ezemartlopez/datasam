@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        rubik: ["Rubik", "sans-serif"], // Agrega la fuente Rubik aquí
+        // Otras fuentes pueden agregarse si es necesario
+      },
     },
   },
   plugins: [],
