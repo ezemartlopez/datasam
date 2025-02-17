@@ -12,7 +12,7 @@ export default function Home() {
       {/* Div azul fijo en la parte superior */}
       <header className="fixed z-50 top-0 h-[80px] w-full bg-gray-950/60">
         <nav className="w-full h-full px-[50px] py-[10px] flex justify-between md:justify-start items-center md:gap-[100px]">
-          <Image src="/svg/DataSamLogo.svg" width={80} height={40} alt="DatasamLogo" loading="lazy"/>
+          <Image src="/Svg/DataSamLogo.svg" width={80} height={40} alt="DatasamLogo" loading="lazy"/>
           <div className="flex-1 h-full hidden md:inline-flex">
             <ul className="h-full w-full flex justify-start items-center gap-[35px]">
               <li className="">
