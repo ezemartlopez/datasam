@@ -36,7 +36,7 @@ export default function Home() {
         {/* Contenido siguiente */}
         <section className="relative z-0 w-full h-screen">
         <Image
-            src="/images/UnsamCampusFullHD.png"
+            src="/Images/UnsamCampusFullHD.png"
             alt="Descripción de la imagen"
             layout="fill"
             //objectFit="cover"
