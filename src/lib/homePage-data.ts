@@ -18,7 +18,7 @@ export const comunidadData: CommunityData[] = [
     image: "/Images/grupo_comunidad.png",
     link: {
       text:"Unirse a la comunidad", 
-      href:""
+      href:"/comunidad"
     }
   },
   {
