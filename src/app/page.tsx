@@ -4,6 +4,8 @@ import Title from "@/components/Title";
 import InfoCommunity from "@/components/InfoCommunity";
 import { comunidadData, faqs } from "@/lib/homePage-data";
 import JoinCommunity from "@/components/Home/JoinCommunity";
+import { FaGraduationCap } from "react-icons/fa";
+import ButtonComponent from "@/components/ButtonComponent";
 
 export default function Home() {
   return (
@@ -31,27 +33,44 @@ export default function Home() {
           <div className="relative max-w-[1440px] p-[30px] md:p-[80px] xl:p-[150px] w-full h-full flex flex-col">
             <div className="absolute top-0 left-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>
             <div className="absolute bottom-0 right-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>
-            <div className="w-full py-14 flex flex-col gap-[40px]">
+            <div className="w-full py-14 flex flex-col gap-[70px]">
               {comunidadData.map((infoData, index) => (
                 <InfoCommunity key={index} info={infoData} reverse={index%2===0}/>
               ))}
+              <article className="w-full h-[500px] sm:h-[400px] relative z-0">
+                <Image 
+                  src="/Images/CarreraImagen.png"
+                  alt="Descripción de la imagen"
+                  layout="fill"
+                  className="object-cover rounded-lg z-0 absolute" // Cambio a object-cover para asegurar que la imagen no cubra todo el contenido
+                />
+                <div className="w-full h-full absolute z-20 py-6 px-8 rounded-lg cursor-pointer bg-black/50 hover:bg-black/65 transition-colors duration-500 flex flex-col justify-center items-center gap-3 group">
+                  <div className="w-full ">
+                    <div className="w-full flex flex-col md:flex-row justify-center items-center gap-3">
+                      <FaGraduationCap className="size-[70px] lg:size-[40px] text-white"/>
+                      <span className="text-wrap text-center font-rubik text-white font-medium text-2xl sm:text-3xl">Descubre tu futuro en Ciencia de Datos</span>
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <p className="font-rubik text-base sm:text-xl font-light text-center text-white">
+                      La licenciatura en ciencia de datos te prepara para liderar la revolución de los datos. Aprenderás técnicas avanzadas de análisis, machine learning y big data para resolver problemas complejos del mundo real.
+                    </p>
+                  </div>
+                  <div className="w-full mt-2">
+                    <div className="w-full flex justify-center items-center">
+                      <ButtonComponent text="Más información sobre la carrera" href="/carrera"/>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+
               <article className="w-full h-auto flex flex-col gap-6">
                 <Title title="Preguntas Frecuentes"/>
                 <div className="w-full h-auto flex flex-col gap-1">
                   {faqs.map((faq, index) => (
                     <MenuDropdown key={index} title={faq.title} description={faq.description}/>
                   ))}
-                </div>
-              </article>
-              <article className="w-full h-[200px] sm:h-[300px] relative z-0">
-                <Image 
-                  src="/Images/CarreraImagen.png"
-                  alt="Descripción de la imagen"
-                  layout="fill"
-                  className="object-fill rounded-lg z-0 absolute"
-                />
-                <div className="absolute w-full h-full rounded-lg z-10 cursor-pointer bg-black/30 hover:bg-black/50 transition-colors duration-500 flex justify-center items-center">
-                  <span className="font-rubik text-white font-light text-3xl sm:text-5xl">Informacion de la Carrera</span>
                 </div>
               </article>
             </div>
