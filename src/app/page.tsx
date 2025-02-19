@@ -23,7 +23,7 @@ export default function Home() {
           />
 
           <div className="absolute z-20 w-full h-full p-[30px] sm:p-[80px] xl:p-[150px] bg-black/15">
-            <div className="w-full h-full flex flex-col justify-end items-start gap-[30px]">
+            <div className="w-full h-full flex flex-col justify-end items-start gap-[30px] pb-[30px] sm:pb-0">
               <h1 className="w-full xl:w-[1024px] font-rubik text-4xl md:text-7xl font-medium text-white">Comunidad de Ciencia de Datos UNSAM</h1>
               <h3 className="font-rubik text-lg md:text-2xl font-normal text-white">Donde el conocimiento se comparte y la comunidad se fortalece 🚀</h3>
             </div>
