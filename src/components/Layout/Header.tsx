@@ -67,7 +67,7 @@ function Header() {
               </li>
             </ul>
           </div>
-          <div onClick={()=>setOpenSidebar(false)} className={classNames("w-full flex-1", {"hidden": !openSidebar})}>11</div>
+          <div onClick={()=>setOpenSidebar(false)} className={classNames("w-full flex-1", {"hidden": !openSidebar})}></div>
       </div>
 
     </header>
