@@ -68,7 +68,7 @@ export const links_data: LinkPage[] = [
     title: "Notion",
     description: "Nuestro repositorio principal de apuntes, guías de estudio, y recursos compartidos por la comunidad. Una fuente invaluable de conocimiento colaborativo.",
     buttonText: "Acceder a Notion",
-    href: "Enlace a Notion" // Reemplaza con el enlace real
+    href: "https://datasam.notion.site/1e9dc7b00cd6444897be928a234e2e32?v=42ef38f5d4094f16bc159d973c1499f8&pvs=25" // Reemplaza con el enlace real
   },
   {
     type: "github",
@@ -76,7 +76,7 @@ export const links_data: LinkPage[] = [
     title: "GitHub",
     description: "Explora y contribuye a nuestros proyectos de código abierto. Perfecto para practicar, colaborar y construir tu portafolio.",
     buttonText: "Ver proyectos en GitHub",
-    href: "Enlace a GitHub" // Reemplaza con el enlace real
+    href: "https://github.com/DATA-SAM-LCD" // Reemplaza con el enlace real
   }
 ];
 
@@ -86,5 +86,5 @@ export const codeOfConductLink: LinkPage = {
   title: "Código de Conducta",
   description: "Nuestras reglas de convivencia aseguran un ambiente respetuoso y productivo para todos los miembros. Es crucial que todos los miembros lean y sigan estas pautas.",
   buttonText: "Leer Código de Conducta",
-  href: "Enlace al Código de Conducta" // Reemplaza con el enlace real
+  href: "https://datasam.notion.site/C-DIGO-DE-CONDUCTA-ff93040740cf43ccb4e7286faa3a3eff" // Reemplaza con el enlace real
 };
