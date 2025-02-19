@@ -7,7 +7,7 @@ import { codeOfConductLink, links_community, links_data, social_networks } from 
 // page.tsx
 export default function CommunityPage() {
   return (
-    <div className="w-full pt-[100px] flex flex-col items-center gap-[20px]">
+    <div className="w-full pt-[80px] flex flex-col items-center gap-[20px]">
   
       <section className="relative max-w-[1440px] w-full h-auto flex flex-col p-[30px] md:p-[80px] xl:p-[150px]">
 
