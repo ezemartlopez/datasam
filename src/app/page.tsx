@@ -51,7 +51,7 @@ export default function Home() {
                       <span className="text-wrap text-center font-rubik text-white font-medium text-2xl sm:text-3xl">Descubre tu futuro en Ciencia de Datos</span>
                     </div>
                   </div>
-                  <div className="w-full">
+                  <div className="w-full px-0 md:px-6">
                     <p className="font-rubik text-base sm:text-xl font-light text-center text-white">
                       La licenciatura en ciencia de datos te prepara para liderar la revolución de los datos. Aprenderás técnicas avanzadas de análisis, machine learning y big data para resolver problemas complejos del mundo real.
                     </p>
