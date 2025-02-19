@@ -1,4 +1,4 @@
-import { CommunityData } from "@/app/lib/homePage-data";
+import { CommunityData } from "@/lib/homePage-data";
 import Title from "./Title";
 import Image from "next/image";
 import ButtonComponent from "./ButtonComponent";
