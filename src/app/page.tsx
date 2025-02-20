@@ -12,15 +12,17 @@ export default function Home() {
       <>
         {/* Contenido siguiente */}
         <section className="relative z-0 w-full h-screen">
-        <Image
-            src="/Images/UnsamCampusFullHD.png"
-            alt="Descripción de la imagen"
-            layout="fill"
-            //objectFit="cover"
-            className="object-fill lg:object-cover w-full h-full absolute z-10"
-            quality={100}
-            priority
-          />
+          <div className="absolute z-10 w-full h-full">
+            <Image
+              src="/Images/UnsamCampusFullHD.png"
+              alt="Descripción de la imagen"
+              layout="fill"
+              //objectFit="cover"
+              className="object-fill lg:object-cover w-full h-full"
+              quality={100}
+              priority
+            />
+          </div>
 
           <div className="absolute z-20 w-full h-full p-[30px] sm:p-[80px] xl:p-[150px] bg-black/15">
             <div className="w-full h-full flex flex-col justify-end items-start gap-[30px] pb-[30px] sm:pb-0">
