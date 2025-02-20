@@ -1,14 +1,14 @@
 import { CommunityData } from "@/lib/homePage-data";
-import Title from "./Title";
 import Image from "next/image";
-import ButtonComponent from "./ButtonComponent";
+import ButtonComponent from "../ButtonComponent";
+import Title from "../Title";
 
 // InfoCommunity.tsx
 
 function ImageInfoCommunity({image}: {image: string}){
   return (
     <div className="w-full relative">
-      <Image src={image} alt="photo" layout="fill" objectFit="cover" className="object-cover rounded-xl"
+      <Image src={image} alt="photo" layout="fill" objectFit="cover" className="object-cover brightness-90 rounded-xl"
       />
     </div>
   );
