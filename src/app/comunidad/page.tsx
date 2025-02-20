@@ -1,4 +1,3 @@
-import ButtonComponent from "@/components/ButtonComponent";
 import CommunicationChannel from "@/components/Community/CommunicationChannel";
 import Paragraph from "@/components/Paragraph";
 import Title from "@/components/Title";
