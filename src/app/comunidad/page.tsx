@@ -3,23 +3,25 @@ import CommunicationChannel from "@/components/Community/CommunicationChannel";
 import Paragraph from "@/components/Paragraph";
 import Title from "@/components/Title";
 import { codeOfConductLink, links_community, links_data, social_networks } from "@/lib/communityPage-data";
+import Image from "next/image";
 
 // page.tsx
 export default function CommunityPage() {
   return (
-    <div className="w-full pt-[80px] flex flex-col items-center gap-[20px]">
+    <div className="w-full flex flex-col items-center gap-[20px]">
   
       <section className="relative max-w-[1440px] w-full h-auto flex flex-col p-[30px] md:p-[80px] xl:p-[150px]">
 
-        <div className="absolute top-0 left-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>
-        <div className="absolute bottom-0 right-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>
+        {/*<div className="absolute top-0 left-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>*/}
+        {/*<div className="absolute bottom-0 right-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>*/}
 
         <div className="w-full flex flex-col items-start gap-[80px] pb-20">
-          <div className="w-full flex justify-end">
-            <ButtonComponent text="Volver al Inicio" href="/"/>
-          </div>
           <article className="w-full flex flex-col gap-5">
             <Title title="Únete a DATA SAM 🚀"/>
+            <div className="w-full h-[300px] sm:h-[500px] relative z-0">
+              <Image src="/Images/comunidad-datasam-page.png" layout="fill" objectFit="cover" alt="comunidad_image" className="object-cover w-full h-full rounded-2xl"/>
+              <div className="absolute z-10 w-full h-full flex justify-center items-center"></div>
+            </div>
             <Paragraph text="Bienvenido a la comunidad de Ciencia de Datos de la Universidad Nacional de San Martín. 🌍📊 Aquí encontrarás un espacio colaborativo donde aprender, compartir conocimientos y conectar con otros entusiastas de los datos. Explora eventos, cursos, grupos de estudio y más. ¡Únete y potencia tu crecimiento profesional!"/>
           </article>
           <article className="w-full flex flex-col gap-5">
