@@ -1,7 +1,7 @@
 import MenuDropdown from "@/components/MenuDropdown";
 import Image from "next/image";
 import Title from "@/components/Title";
-import InfoCommunity from "@/components/InfoCommunity";
+import InfoCommunity from "@/components/Home/InfoCommunity";
 import { comunidadData, faqs } from "@/lib/homePage-data";
 import JoinCommunity from "@/components/Home/JoinCommunity";
 import { FaGraduationCap } from "react-icons/fa";
@@ -14,11 +14,11 @@ export default function Home() {
         <section className="relative z-0 w-full h-screen">
           <div className="absolute z-10 w-full h-full">
             <Image
-              src="/Images/UnsamCampusFullHD.png"
+              src="/Images/comunidad-datasam-page.png"
               alt="Descripción de la imagen"
               layout="fill"
               //objectFit="cover"
-              className="object-fill lg:object-cover w-full h-full"
+              className="object-fill brightness-110 lg:object-cover w-full h-full"
               quality={100}
               priority
             />
@@ -26,8 +26,8 @@ export default function Home() {
 
           <div className="absolute z-20 w-full h-full p-[30px] sm:p-[80px] xl:p-[150px] bg-black/15">
             <div className="w-full h-full flex flex-col justify-end items-start gap-[30px] pb-[30px] sm:pb-0">
-              <h1 className="w-full xl:w-[1024px] font-rubik text-4xl md:text-7xl font-medium text-white">Comunidad de Ciencia de Datos UNSAM</h1>
-              <h3 className="font-rubik text-lg md:text-2xl font-normal text-white">Donde el conocimiento se comparte y la comunidad se fortalece 🚀</h3>
+              <h1 className="w-full xl:w-[1024px] font-rubik text-4xl md:text-5xl lg:text-7xl font-medium text-white">Comunidad de Ciencia de Datos UNSAM</h1>
+              <h3 className="font-rubik text-lg md:text-xl lg:text-2xl font-normal text-white">Donde el conocimiento se comparte y la comunidad se fortalece 🚀</h3>
             </div>
           </div>
         </section>
