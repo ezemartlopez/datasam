@@ -17,8 +17,8 @@ export default function Home() {
               src="/Images/comunidad-datasam-page.png"
               alt="Descripción de la imagen"
               layout="fill"
-              //objectFit="cover"
-              className="object-fill brightness-110 lg:object-cover w-full h-full"
+              objectFit="cover"
+              className="object-right brightness-110 w-full h-full"
               quality={100}
               priority
             />
