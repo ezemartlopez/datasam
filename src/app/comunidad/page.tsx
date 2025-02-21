@@ -17,8 +17,8 @@ export default function CommunityPage() {
         <div className="w-full flex flex-col items-start gap-[80px] pb-20">
           <article className="w-full flex flex-col gap-5">
             <Title title="Únete a DATA SAM 🚀"/>
-            <div className="w-full h-[300px] sm:h-[500px] relative z-0">
-              <Image src="/Images/comunidad-datasam-page.png" layout="fill" objectFit="cover" alt="comunidad_image" className="object-cover w-full h-full rounded-2xl"/>
+            <div className="w-full h-[250px] sm:h-[400px] relative z-0">
+              <Image src="/Images/campus_comunidad.png" layout="fill" objectFit="fill" alt="comunidad_image" className="object-cover w-full h-full rounded-2xl"/>
               <div className="absolute z-10 w-full h-full flex justify-center items-center"></div>
             </div>
             <Paragraph text="Bienvenido a la comunidad de Ciencia de Datos de la Universidad Nacional de San Martín. 🌍📊 Aquí encontrarás un espacio colaborativo donde aprender, compartir conocimientos y conectar con otros entusiastas de los datos. Explora eventos, cursos, grupos de estudio y más. ¡Únete y potencia tu crecimiento profesional!"/>
