@@ -11,7 +11,7 @@ export const links_community: LinkPage[] = [
   {
     type: "whatsapp",
     logo: "/Svg/whatsapp.svg",
-    title: "Comunidad",
+    title: "Comunidad DATASAM",
     description: "Nuestra comunidad de WhatsApp para actualizaciones rápidas, anuncios importantes y comunicación informal entre miembros de la comunidad.",
     buttonText: "Unirse al grupo de WhatsApp",
     href: "https://chat.whatsapp.com/GZYwzwIY8FZJH8qF1ooUpj"
@@ -19,7 +19,7 @@ export const links_community: LinkPage[] = [
   {
     type: "discord",
     logo: "/Svg/discord.svg",
-    title: "Comunidad",
+    title: "Comunidad DATASAM",
     description: "Nuestro servidor principal de comunicación. Únete para discusiones en tiempo real, eventos, colaboración en proyectos y soporte entre pares.",
     buttonText: "Unirse al Discord",
     href: "https://discord.gg/b58Rhb63W6"

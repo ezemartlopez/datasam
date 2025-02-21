@@ -9,7 +9,7 @@ export default function CommunityPage() {
   return (
     <div className="w-full flex flex-col items-center gap-[20px]">
   
-      <section className="relative max-w-[1440px] w-full h-auto flex flex-col p-[30px] md:p-[80px] xl:p-[150px]">
+      <section className="relative max-w-[1440px] pt-[120px] w-full h-auto flex flex-col px-[30px] md:px-[80px] xl:px-[150px]">
 
         {/*<div className="absolute top-0 left-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>*/}
         {/*<div className="absolute bottom-0 right-0 size-[30px] md:size-[80px] xl:size-[150px] bg-green-500/50"></div>*/}
